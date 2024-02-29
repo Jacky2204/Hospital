@@ -1,1 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
+/* navbar */
+.bg-success {
+    background-color: #84c0e15a !important;
+}
+
+.navbar a{
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+/* navbar serch box */
+
+.btn {
+    border: 1px solid black !important;
+    background-color: white;
+}
+
+/* imges */
+
+.carousel-item img{
+    height: 90vh;
+    width: 100vw;
+}
+
+
+
+/* overview */
+
+.over {
+    height: 200px;
+    width: 700px;
+}
+
+.over h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.over p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.focus h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.request {
+    height: 50px;
+    width: 350px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0057b8;
+}
+
+.request a {
+    font-size: larger;
+    line-height: 50px;
+    margin: auto;
+    color: white;
+    display: block;
+}
+
+.request:hover {
+    background-color: #2a6db9;
+}
+
+.request a:hover {
+    text-decoration: none;
+}
+
+/* appointment */
+
+.point {
+    height: 200px;
+    width: 400px;
+}
+
+.point span{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.point h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.point p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.point a{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+/* why choose */
+
+.choose img{
+border: 3px solid black;
+}
+
+.why-choose {
+    height: 500px;
+    width: 350px;
+}
+
+.why-choose h2{
+    font-size: 40px;
+    line-height: 44px;
+    color: black;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.why-choose p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 20px;
+    color: black;
+}
+
+.why {
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid blue;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.why a {
+    font-size: larger;
+    line-height: 50px;
+    margin: auto;
+    color: rgb(90, 98, 204);
+    display: block;
+    text-decoration: none;
+}
+
+
+
+/* about */
+
+.about {
+    height: 500px;
+    width: 350px;
+}
+
+.about h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.about p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.about a{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.about span{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* feedback */
+
+.feedback {
+    height: 275px;
+}
+
+.feedback .para p {
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.feedback .para h5 {
+    color: rgb(100, 149, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* footer */
+
+.footer {
+    width: auto;
+    height: 517px;
+    border: 2px solid black;
+    background: skyblue;
+}
+
+.map {
+    width: 600px;
+    height: 498px;
+
+}
+
+.info {
+margin: auto;
+    height: 400px;
+    width: 300px;
+}
+
+.info span{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.info h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.info p {
+    color: blue;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info a {
+    text-decoration: none;
+    color: blue;
+}
+
+.info .dr{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.design{
+    width: auto;
+    height: 30px;
+    border: 1px solid black;
+    background: skyblue;
+}
+
+.design p{
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    text-align: end;
+    margin-right: 20px;
+}
