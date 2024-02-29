@@ -5,27 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sai Hospital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./../style/services.css">
   </head>
   <style>
     *{
-        margin: 00px;
-        padding: 00px;
+    margin: 00px;
+    padding: 00px;
+}
+/*service.1.img*/
+   .img1{
+     height: 85vh;
+     width: 100vw;
+  } 
+ 
+    /* navbar */
+ .bg-success {
+        background-color: #82bfdf5a !important;
     }
-    /*service.1.img*/
-    .img1{
-        height: 85vh;
-        width: 100vw;
-    }
-     /* navbar */
-     .bg-success {
-            background-color: #84c0e15a !important;
-        }
 
-        /* navbar serch box */
-        .btn {
-            border: 1px solid black !important;
-            background-color: white;
-        }
+    /* navbar serch box */
+    .btn {
+        border: 1px solid black !important;
+        background-color: white;
+    }
   </style>
   <body>
 
@@ -91,10 +93,10 @@
 <br><br><br>
     
 <!-- our services -->
-    <center><h1>Our Services</h1></center><br><br>
+    <center><h1>Our Services</h1></center><br>
 
     <!-- public sector services -->
-    <center><h2>In Private Sector</h2></center><br>
+    <center><h3>In Private Sector</h3></center><br>
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
@@ -150,7 +152,7 @@
       </ol><br><br>
 
       <!-- private sector services -->
-      <center><h2>In Public Sector</h2></center><br>
+      <center><h3>In Public Sector</h3></center><br>
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
@@ -206,19 +208,140 @@
 
 <br><br><br>
 
-<!-- table for doctors -->
-  
+<!-- table for doctors  -->
+<center><h3>OPD<h5>(Out-patient Department)</h5></h3></center><br>
+    <table class="table">
+      <tr>
+        <th>SR.N0</th>
+        <th>PHYSICIAN NAME</th>
+        <th>SPECIALITY</th>
+        <th>DAY</th>
+        <th>DATES OF MONTH</th>
+        <th>TIMING</th>
+        <th>CONTACT PRO</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>DR.MANDAR BHOSALE</td>
+        <td>MBBS ORTHO</td>
+        <td>SUNDAY</td>
+        <td>EVERY MONTH 3RD SUNDAY</td>
+        <td>3PM-6PM</td>
+        <td>9422739424</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>DR.ABHAY PATIL</td>
+        <td>MBBS ORTHO</td>
+        <td>MONDAY</td>
+        <td>EVERY MONDAY</td>
+        <td>12PM-3PM</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>DR.RAHUL TRIMUKHE</td>
+        <td>CARDIOLOGIST</td>
+        <td>WEDNESDAY</td>
+        <td>EVERY 2ND AND 4TH WEDNESDAY</td>
+        <td>11AM-1PM</td>
+        <td>9511826941</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>DR.DHANANJAY WARE</td>
+        <td>CARDIOLOGIST</td>
+        <td>TUESDAY</td>
+        <td>EVERY 3RD TUESDAY</td>
+        <td>4PM-6PM</td>
+        <td>9922412838</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>DR.SANTOSH GITE</td>
+        <td>MD.MEDICINE</td>
+        <td>THURSDAY</td>
+        <td>EVERY 3RD THURSDAY</td>
+        <td>11AM-2PM</td>
+        <td>9765620087</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>DR.PRASHANT JADHAV</td>
+        <td>NEUROLOGIST</td>
+        <td>WEDNESDAY</td>
+        <td>EVERY 2ND WEDNESDAY</td>
+        <td>10AM-12PM</td>
+        <td>9890358444</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>DR.DARSHAN GAUD</td>
+        <td>NEUROLOGIST</td>
+        <td>FRIDAY</td>
+        <td>EVERY 3RD FRIDAY</td>
+        <td>11AM-2PM</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>DR.SAIPRASAD SHINDE</td>
+        <td>NEPHROLOGIST</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>9922412838</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>DR.SANTOSH PALVE</td>
+        <td>GASTROLOGIST</td>
+        <td>SUNDAY</td>
+        <td>EVERY 4TH SUNDAY</td>
+        <td>10AM-1PM</td>
+        <td>7720032580</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>DR.VIKRAM PATIL</td>
+        <td>GASTROLOGIST</td>
+        <td>TUESDAY</td>
+        <td>EVERY 3RD TUESDAY</td>
+        <td>11AM-2PM</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>DR.BANGALE</td>
+        <td>GYNACOLOGIST</td>
+        <td>MONDAY</td>
+        <td>EVERY MONDAY</td>
+        <td>5PM-7PM</td>
+        <td>8999985172</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>DR.ASHOK SHINDE</td>
+        <td>GEN.SURGION</td>
+        <td>ON CALL</td>
+        <td>ANY TIME</td>
+        <td></td>
+        <td>7721080777</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>DR.VAIBHAV MACHE</td>
+        <td>GEN.SURGION</td>
+        <td>ON CALL</td>
+        <td>ANY TIME</td>
+        <td></td>
+        <td>9890840861</td>
+      </tr>
+    </table>
+
 
 
 <!-- doctor's profiles -->
-<div class="clearfix">
-  <img src="./../images/services images/dr.1.jpeg" class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
-
-  <p>
-    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-  </p>
-</div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
