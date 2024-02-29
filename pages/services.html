@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sai Hospital</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./../style/services.css">
   </head>
   <style>
     *{
-        margin: 00px;
-        padding: 00px;
+    margin: 00px;
+    padding: 00px;
+}
+/*service.1.img*/
+   .img1{
+     height: 85vh;
+     width: 100vw;
+  } 
+ 
+    /* navbar */
+ .bg-success {
+        background-color: #82bfdf5a !important;
     }
-    .img1{
-        height: 85vh;
-        width: 100vw;
+
+    /* navbar serch box */
+    .btn {
+        border: 1px solid black !important;
+        background-color: white;
     }
 
     /* navbar */
@@ -90,18 +103,80 @@
 
 
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-success position-sticky top-0 z-10">
+      <div class="container-fluid">
+          <img src="./../images/Home Images/Screenshot 2024-02-26 154001.png" height="80px" width="80px" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item mx-5">
+                      <a class="nav-link fs-5 fw-normal text-black" aria-current="page" href="./home.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                      <a class="nav-link fs-5 fw-normal text-black" href="./about.html">About</a>
+                  </li>
+
+                  <!-- dropdown -->
+
+                  <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                              <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                  </li> -->
+
+                  <li class="nav-item mx-5">
+                      <a class="nav-link fs-5 fw-normal text-black" href="./services.html">Services</a>
+                  </li>
+              </ul>
+
+              <form class="d-flex me-5" role="search">
+                  <input class="btn form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success fs-6 fw-normal text-black" type="submit">Search</button>
+              </form>
+
+              <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link fs-5 fw-normal text-black" href="./signup.html">Sign up</a>
+                  </li>
+              </ul>
+
+          </div>
+      </div>
+  </nav>
+
 
 <!-- hospital image -->
     <img src="./../images/services images/services.1.jpg" class="img1">
 <br><br><br>
     
 <!-- our services -->
-    <center><h1>Our Services</h1></center><br><br>
+    <center><h1>Our Services</h1></center><br>
 
+<<<<<<< HEAD
+    <!-- private sector services -->
+    <center><h3>In Private Sector</h3></center><br>
+    <ol class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+=======
     <!-- public sector services -->
     <center><h2>In Private Sector</h2></center><br>
     <ol class="list-group list-group-numbered position-absolute z-1">
         <li class="list-group-item d-flex justify-content-between ">
+>>>>>>> 330e55a1fd12a3854fbf758b4c41d2e19b5eab37
           <div class="ms-2 me-auto">
             <div class="fw-bold">Inpatient Care</div>
             Just like public or government hospitals, Our hospital also offer inpatient care. Which means they treat patients who need to stay overnight or for an extended period. This includes surgeries, complex medical procedures, and care for severe illnesses that require continuous monitoring. Private hospitals often offer a range of comfortable rooms and amenities, along with a dedicated medical staff, to ensure patients receive top-notch care while they recover in a more personalized and private setting.
@@ -109,6 +184,9 @@
         <li class="list-group-item d-flex justify-content-between ">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Outpatient Care</div>
+<<<<<<< HEAD
+            Outpatient care in private hospitals allows patients to receive medical treatment without staying overnight. This includes doctor's appointments, diagnostic tests, minor surgeries, and therapies. people can visit the hospital, receive care, and return home on the same day. Private hospitals often emphasize efficiency and convenience in their outpatient care services, ensuring that patients can access quality health care with minimal disruption to their daily lives.<a href="./services1.html">View More</a>
+=======
             Outpatient care in private hospitals allows patients to receive medical treatment without staying overnight. This includes doctor's appointments, diagnostic tests, minor surgeries, and therapies. people can visit the hospital, receive care, and return home on the same day. Private hospitals often emphasize efficiency and convenience in their outpatient care services, ensuring that patients can access quality health care with minimal disruption to their daily lives.
           </div>
         <li class="list-group-item d-flex justify-content-between ">
@@ -151,11 +229,12 @@
           <div class="ms-2 me-auto">
             <div class="fw-bold">Prevent Chronic Health Conditions</div>
             Private hospital emphasize preventive Medicare measures to help patients avoid chronic health conditions. They provide wellness programs, health screenings, counseling, and health education to promote healthy lifestyles. By focusing on prevention, private hospitals aim to reduce the incidence of chronic diseases and empower individuals to make choices that lead to better long-term health.
+>>>>>>> 330e55a1fd12a3854fbf758b4c41d2e19b5eab37
           </div>
       </ol><br><br>
 
-      <!-- private sector services -->
-      <center><h2>In Public Sector</h2></center><br>
+      <!-- public sector services -->
+      <center><h3>In Public Sector</h3></center><br>
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
@@ -165,65 +244,146 @@
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Inpatient Services</div>
-            Inpatient services in public hospitals refer to the care provided to people who need to stay overnight or for an extended period. This includes surgeries, post- operative care, and treatments for severe illnesses that require continuous monitoring and administering medication. Hospitals offer comfortable rooms and a dedicated medical staff or a doctor's office to ensure people receive the necessary care and attention while they recover.
-          </div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Outpatient Services</div>
-            Outpatient services allow people to receive medical care without the need for an overnight stay. This includes doctor's appointments, diagnostic tests, and minor procedures like stitches or vaccinations. Public hospitals provide outpatient and care services to address various health concerns promptly, often on an appointment basis, making health care more accessible and convenient for individuals.
-          </div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-              <div class="fw-bold">Specialized Care</div>
-              Public hospitals offer special care in various medical fields such as cardiology, neurology, oncology, and more. These departments are staffed with experts who focus on specific health conditions. People with complex or chronic illnesses can receive specialized treatments, surgeries, and therapies to improve their health and quality of life.
-            </div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-              <div class="fw-bold">Maternity And Children Care</div>
-              Public hospitals provide many services for expectant mothers and children. Maternity services include prenatal care, delivery, and postpartum care, ensuring the good health care of both the mother and newborn at a low cost. Children's hospital care encompasses pediatric services, vaccinations, and treatments for childhood illnesses. These services prioritize the full health care and development of infants and children, offering families peace of mind when it comes to their little ones' health.
-            </div>
-           <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Community Health</div>
-            Public hospitals actively engage in community health initiatives. They organize health education programs, wellness check-ups, and preventive screenings within the community. These efforts aim to promote healthier lifestyles, prevent diseases, and raise awareness about crucial health issues. By addressing the needs of the local population, public hospitals play a vital role in improving overall community health.
-          </div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Public Health Services Or Programs</div>
-            Public hospitals collaborate with public health agencies to implement programs that protect and enhance the health of the community. These programs often include disease surveillance, immunization campaigns, and response to public health emergencies, such as disease outbreaks. Public hospitals act as key partners in safeguarding the health of the community services the entire population and communities they serve.
-          </div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Mental Health Rehabilitation Services</div>
-            Public hospitals provide mental health care services to individuals dealing with psychological challenges, such as depression, anxiety, or substance abuse. They also provide rehabilitation services for patients recovering from injuries or surgeries and offer services, including physical therapy, occupational therapy, and speech therapy. These services assist patients in regaining their independence and improving their mental and physical welfare.
-          </div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-              <div class="fw-bold">Diagnostic Services</div>
-              Diagnostic services in public hospitals encompass a wide range of tests and procedures to identify and monitor health conditions. This includes medical imaging (X-rays, MRI, CT scans), laboratory tests (blood tests, biopsies), and diagnostic consultations. These services play a crucial role in accurate disease diagnosis and treatment planning, helping medical professionals provide the best care possible.
-            </div>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Pharmacy Or Medication Services</div>
-            Public hospitals have pharmacies where people can obtain prescribed medications and expert guidance on their proper use.Pharmacists ensure that people understand their medications, potential side effects, and interactions. This service is essential to people for managing chronic conditions, post-surgery recovery, and general health maintenance, ensuring that people receive safe and effective medications as part of their treatment.
+            Inpatient services in public hospitals refer to the care provided to people who need to stay overnight or for an extended period. This includes surgeries, post- operative care, and treatments for severe illnesses that require continuous monitoring and administering medication. Hospitals offer comfortable rooms and a dedicated medical staff or a doctor's office to ensure people receive the necessary care and attention while they recover.<a href="./services1.html">View More</a>
           </div>
       </ol>
 
 <br><br><br>
 
-<!-- table for doctors -->
-  
+<!-- table for doctors  -->
+<center><h3>OPD<h5>(Out-patient Department)</h5></h3></center><br>
+    <table class="table">
+      <tr>
+        <th>SR.N0</th>
+        <th>PHYSICIAN NAME</th>
+        <th>SPECIALITY</th>
+        <th>DAY</th>
+        <th>DATES OF MONTH</th>
+        <th>TIMING</th>
+        <th>CONTACT PRO</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>DR.MANDAR BHOSALE</td>
+        <td>MBBS ORTHO</td>
+        <td>SUNDAY</td>
+        <td>EVERY MONTH 3RD SUNDAY</td>
+        <td>3PM-6PM</td>
+        <td>9422739424</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>DR.ABHAY PATIL</td>
+        <td>MBBS ORTHO</td>
+        <td>MONDAY</td>
+        <td>EVERY MONDAY</td>
+        <td>12PM-3PM</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>DR.RAHUL TRIMUKHE</td>
+        <td>CARDIOLOGIST</td>
+        <td>WEDNESDAY</td>
+        <td>EVERY 2ND AND 4TH WEDNESDAY</td>
+        <td>11AM-1PM</td>
+        <td>9511826941</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>DR.DHANANJAY WARE</td>
+        <td>CARDIOLOGIST</td>
+        <td>TUESDAY</td>
+        <td>EVERY 3RD TUESDAY</td>
+        <td>4PM-6PM</td>
+        <td>9922412838</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>DR.SANTOSH GITE</td>
+        <td>MD.MEDICINE</td>
+        <td>THURSDAY</td>
+        <td>EVERY 3RD THURSDAY</td>
+        <td>11AM-2PM</td>
+        <td>9765620087</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>DR.PRASHANT JADHAV</td>
+        <td>NEUROLOGIST</td>
+        <td>WEDNESDAY</td>
+        <td>EVERY 2ND WEDNESDAY</td>
+        <td>10AM-12PM</td>
+        <td>9890358444</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>DR.DARSHAN GAUD</td>
+        <td>NEUROLOGIST</td>
+        <td>FRIDAY</td>
+        <td>EVERY 3RD FRIDAY</td>
+        <td>11AM-2PM</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>DR.SAIPRASAD SHINDE</td>
+        <td>NEPHROLOGIST</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>9922412838</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>DR.SANTOSH PALVE</td>
+        <td>GASTROLOGIST</td>
+        <td>SUNDAY</td>
+        <td>EVERY 4TH SUNDAY</td>
+        <td>10AM-1PM</td>
+        <td>7720032580</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>DR.VIKRAM PATIL</td>
+        <td>GASTROLOGIST</td>
+        <td>TUESDAY</td>
+        <td>EVERY 3RD TUESDAY</td>
+        <td>11AM-2PM</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>DR.BANGALE</td>
+        <td>GYNACOLOGIST</td>
+        <td>MONDAY</td>
+        <td>EVERY MONDAY</td>
+        <td>5PM-7PM</td>
+        <td>8999985172</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>DR.ASHOK SHINDE</td>
+        <td>GEN.SURGION</td>
+        <td>ON CALL</td>
+        <td>ANY TIME</td>
+        <td></td>
+        <td>7721080777</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>DR.VAIBHAV MACHE</td>
+        <td>GEN.SURGION</td>
+        <td>ON CALL</td>
+        <td>ANY TIME</td>
+        <td></td>
+        <td>9890840861</td>
+      </tr>
+    </table>
+
 
 
 <!-- doctor's profiles -->
-<div class="clearfix">
-  <img src="./../images/services images/dr.1.jpeg" class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
-
-  <p>
-    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-  </p>
-</div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
