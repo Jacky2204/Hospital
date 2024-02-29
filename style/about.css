@@ -1,0 +1,56 @@
+
+        /* navbar */
+
+        .navbar {
+            position: sticky;
+            z-index: 10;
+            top: 0;
+        }
+
+        .bg-success {
+            background-color: #84c0e15a !important;
+        }
+
+        .navbar a {
+            transition: 0.5s;
+        }
+
+        .navbar a:hover {
+            transform: scale(1.2);
+            text-decoration: underline;
+            font-weight: 900;
+        }
+
+        /* navbar serch box */
+
+        .btn {
+            border: 1px solid black !important;
+            background-color: white;
+        }
+
+
+        .img {
+            margin-top: 40px;
+
+        }
+
+        .card1 {
+            margin-top: 70px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .h1 {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .card2 {
+            margin-top: 30px;
+        }
+
+        .p1 {
+            margin-left: 340px;
+            margin-top: 40px;
+        }
+       
