@@ -12,15 +12,34 @@
 
     <style>
         /* navbar */
+
+        .navbar {
+            position: sticky;
+            z-index: 10;
+            top: 0;
+        }
+
         .bg-success {
             background-color: #84c0e15a !important;
         }
 
+        .navbar a {
+            transition: 0.5s;
+        }
+
+        .navbar a:hover {
+            transform: scale(1.2);
+            text-decoration: underline;
+            font-weight: 900;
+        }
+
         /* navbar serch box */
+
         .btn {
             border: 1px solid black !important;
             background-color: white;
         }
+
 
         .img {
             margin-top: 40px;
@@ -59,9 +78,9 @@
 
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg bg-success position-sticky top-0 ">
+    <nav class="navbar navbar-expand-lg bg-success ">
         <div class="container-fluid">
-            <img src="./../images/Home Images/Screenshot 2024-02-26 154001.png" height="80px" width="80px" alt="">
+            <img src="./../images/Home Images/hospital logo.png" height="80px" width="80px" alt="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -113,6 +132,7 @@
         </div>
     </nav>
 
+
     <div class="img">
         <img src="https://c8.alamy.com/comp/HHJF1G/empty-and-unmanned-hospital-reception-desk-area-and-waiting-room-model-HHJF1G.jpg"
             width="1500px" height="700px">
@@ -158,8 +178,8 @@
             </div>
         </div>
     </div>
-     
-    
+
+
 
 
 
