@@ -19,6 +19,7 @@ h1 {
   color: #333;
 }
 
+
 .doctor {
   display: flex;
   align-items: center;
@@ -26,6 +27,8 @@ h1 {
   padding: 20px;
   border-radius: 8px;
   background-color: #f9f9f9;
+  height: 400px;
+  width: 800px;
 }
 
 .doctor img {
@@ -60,4 +63,29 @@ h1 {
 .doctor .contact:hover {
   text-decoration: underline;
 }
-</style>
+
+.navbar {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+.bg-success {
+    background-color: #84c0e15a !important;
+}
+
+.navbar a {
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+
+.btn {
+    border: 1px solid black !important;
+    background-color: white;
+}
